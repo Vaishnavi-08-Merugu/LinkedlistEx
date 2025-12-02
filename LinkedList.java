@@ -7,7 +7,7 @@ class Node {
         this.next = null;
     }
 }
-class LinkedList {
+class LinkedListDemo {
     Node head;
 
     public void insertAtBeginning(int data) {
@@ -36,9 +36,9 @@ class LinkedList {
         System.out.println("null");
     }
 }
-public class LinkedListDemo {
+public class LinkedList {
     public static void main(String[] args) {
-        LinkedList list = new LinkedList();
+        LinkedListDemo list = new LinkedListDemo();
 
         list.insertAtBeginning(10);
         list.insertAtBeginning(20);
