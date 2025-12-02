@@ -9,7 +9,6 @@ class Node {
 }
 class LinkedListDemo {
     Node head;
-
     public void insertAtBeginning(int data) {
         Node newNode = new Node(data);
         newNode.next = head;
@@ -47,6 +46,5 @@ public class LinkedList {
         list.insertAtEnd(50);
         System.out.println("Linked List after inserting at beginning:");
         list.display();
-        list.insertAtEnd(40);
     }
 }
