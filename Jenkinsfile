@@ -12,19 +12,12 @@ pipeline
                 checkout scm
             }
         }
-        stage('Build')
+        stage('Build and Run')
         {
             steps
             {
-                echo 'Building...'
+                echo 'Building and Running Java Program...'
                 javac LinkedList.java
-            }
-        }
-        stage('Test')
-        {
-            steps
-            {
-                echo 'Testing...'
                 java LinkedList
             }
         }
