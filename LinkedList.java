@@ -43,7 +43,6 @@ public class LinkedList {
         list.insertAtBeginning(10);
         list.insertAtBeginning(20);
         list.insertAtBeginning(30);
-        list.insertAtBeginning(60);
         list.insertAtEnd(40);
         list.insertAtEnd(50);
         System.out.println("Linked List after inserting at beginning:");
